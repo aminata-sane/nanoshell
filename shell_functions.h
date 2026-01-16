@@ -5,8 +5,8 @@
 #include <sys/wait.h>
 
 // Function declarations
-void display_prompt(char *cwd);
+void display_prompt(char *cwd); // take count of the path and print it
 void read_input(char *buffer);
 void handle_cd(char *argument);
-void resolve_path(char *buffer, char *chemin_test);
+void resolve_path(char *buffer, char *test_path);
 void execute_command(char *buffer);
